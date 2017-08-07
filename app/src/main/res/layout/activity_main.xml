@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tech.kevin.imageview.MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/shape_bg"
+        android:padding="20dp"
+        android:src="@drawable/ic_android_red_500_24dp"
+        android:text="Hello World!"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/grey_800"
+        android:drawableTop="@drawable/ic_android_red_500_24dp"
+        android:padding="20dp"
+        android:text="Hello"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal"
+        android:drawableTop="@drawable/ic_android_red_500_24dp"
+        android:padding="20dp"
+        android:text="Hello"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</LinearLayout>
